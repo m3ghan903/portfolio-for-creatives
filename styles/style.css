@@ -113,7 +113,7 @@
   --color-text-secondary: #333;
   --color-accent-primary: #ff428a;
   --color-accent-secondary: #f275b1;
-  --color-overlay-primary: rgba(82, 0, 255, 0.5);
+  --color-overlay-primary: rgba(246, 86, 233, 0.5);
   --color-highlight: lemonchiffon;
   --color-fallback: #ff057c; /* Fallback color for glitch effect on 404 page */
   /* Backgrounds */
@@ -122,28 +122,28 @@
   --color-bg-footer: #f5f5f5;
   --color-bg-holding-page: rgba(255, 126, 206, 0.6);
   /* Headings */
-  --h1-color: #9e74f9;
-  --h2-color: #8e5aff;
-  --h3-color: #5200ff;
-  --h4-color: #5200ff;
-  --h5-color: #5200ff;
-  --h6-color: #5200ff;
+  --h1-color: #f486f6;
+  --h2-color: #f592ec;
+  --h3-color: #b899f9;
+  --h4-color: #fc7dce;
+  --h5-color: #fd8dea;
+  --h6-color: #f084e5;
   /* Special Text Colours */
   --color-text-holding-title: #ebedf0;
   --color-text-project-category: #ffffff;
   --color-text-project-description: #222;
   --color-text-project-sidebar: #222;
-  --color-text-project-title: #5200ff;
+  --color-text-project-title: #ff6adf;
   --color-text-work-grid-title: #ffffff;
   /* Link States */
-  --color-link: #5200ff;
+  --color-link: #e58bf0;
   --color-link-hover: #111;
-  --color-link-visited: #5200ff;
+  --color-link-visited: #ff00b3;
   /* Navigation */
-  --color-nav-link: #5200ff;
-  --color-nav-link-hover: #321575;
-  --color-nav-arrow: #5200ff;
-  --color-nav-arrow-hover: #000;
+  --color-nav-link: #fa6dd7;
+  --color-nav-link-hover: #69dcc5;
+  --color-nav-arrow: #f480dd;
+  --color-nav-arrow-hover: #ae49ca;
   --color-nav-arrow-stroke: #5200ff;
   --color-nav-arrow-stroke-hover: #000;
   /* Components */
@@ -1530,6 +1530,7 @@ to keep your styles reusable and consistent.
   .project-aside {
     width: 35%;
     height: 80vh;
+    background: pink;
     position: -webkit-sticky;
     position: sticky;
     top: 8rem;
