@@ -111,8 +111,8 @@
   /* Core Colours */
   --color-text-primary: #222;
   --color-text-secondary: #333;
-  --color-accent-primary: #ff428a;
-  --color-accent-secondary: #f275b1;
+  --color-accent-primary: #e54dce;
+  --color-accent-secondary: #5b044e;
   --color-overlay-primary: rgba(246, 86, 233, 0.5);
   --color-highlight: lemonchiffon;
   --color-fallback: #ff057c; /* Fallback color for glitch effect on 404 page */
@@ -122,7 +122,7 @@
   --color-bg-footer: #f5f5f5;
   --color-bg-holding-page: rgba(255, 126, 206, 0.6);
   /* Headings */
-  --h1-color: #f486f6;
+  --h1-color: #750277;
   --h2-color: #f592ec;
   --h3-color: #b899f9;
   --h4-color: #fc7dce;
@@ -133,15 +133,15 @@
   --color-text-project-category: #ffffff;
   --color-text-project-description: #222;
   --color-text-project-sidebar: #222;
-  --color-text-project-title: #ff6adf;
+  --color-text-project-title: #870a6c;
   --color-text-work-grid-title: #ffffff;
   /* Link States */
   --color-link: #e58bf0;
   --color-link-hover: #111;
   --color-link-visited: #ff00b3;
   /* Navigation */
-  --color-nav-link: #fa6dd7;
-  --color-nav-link-hover: #69dcc5;
+  --color-nav-link: #5b044e;
+  --color-nav-link-hover: #f480dd;
   --color-nav-arrow: #f480dd;
   --color-nav-arrow-hover: #ae49ca;
   --color-nav-arrow-stroke: #5200ff;
@@ -690,6 +690,10 @@ a.nav-link-primary:hover {
   min-height: 80vh; /* Takes up most of the screen height */
   display: flex;
   flex-direction: column;
+  background-image: url("../assets/branding-images/ascii-art.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
 }
 .hero-header {
   min-height: 6rem; /* Space reserved for logo + nav */
@@ -1185,9 +1189,6 @@ a.nav-link-primary:hover {
 .project-details {
   width: 100%;
   padding: var(--padding-small);
-  background: var(
-    --color-gradient-project-details
-  ); /* TODO: Remove gradient background if you prefer a simpler design */
 }
 
 /* Previous/Next Arrow Styles */
@@ -1530,7 +1531,7 @@ to keep your styles reusable and consistent.
   .project-aside {
     width: 35%;
     height: 80vh;
-    background: pink;
+
     position: -webkit-sticky;
     position: sticky;
     top: 8rem;
