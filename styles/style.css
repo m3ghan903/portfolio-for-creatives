@@ -111,7 +111,7 @@
   /* Core Colours */
   --color-text-primary: #222;
   --color-text-secondary: #333;
-  --color-accent-primary: #e54dce;
+  --color-accent-primary: #260220;
   --color-accent-secondary: #5b044e;
   --color-overlay-primary: rgba(246, 86, 233, 0.5);
   --color-highlight: lemonchiffon;
@@ -690,7 +690,7 @@ a.nav-link-primary:hover {
   min-height: 80vh; /* Takes up most of the screen height */
   display: flex;
   flex-direction: column;
-  background-image: url("../assets/branding-images/ascii-art.png");
+  background-image: url("../assets/branding-images/Butterfly.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
