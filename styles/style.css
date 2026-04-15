@@ -685,13 +685,13 @@ a.nav-link-primary:hover {
 
 .hero {
   width: 100%;
-  min-height: 80vh; /* Takes up most of the screen height */
+  min-height: 60vh; /* Takes up most of the screen height */
   display: flex;
   flex-direction: column;
   background-image: url("../assets/branding-images/Butterfly.png");
   background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
+  background-position: 50% 90%;
+  background-size: 30%;
 }
 .hero-header {
   min-height: 6rem; /* Space reserved for logo + nav */
@@ -715,7 +715,7 @@ a.nav-link-primary:hover {
 }
 
 .nav-branding-logo {
-  width: 3rem;
+  width: 7rem;
   /* TODO: Adjust the width of the logo on mobile devices here */
 }
 
@@ -1467,6 +1467,8 @@ to keep your styles reusable and consistent.
 
   .hero {
     min-height: 100vh;
+    background-position: 90% center;
+    background-size: 30%;
   }
 
   .hero-headline-wrapper {

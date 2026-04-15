@@ -73,7 +73,6 @@
 
       <footer class="hero-footer">
         <ul class="hero-footer-navigation">
-          <h2></h2>
           <li>
             <!-- Update with your real Instagram link -->
             <a href="https://www.instagram.com/" class="nav-link-primary"
@@ -179,22 +178,71 @@
     </section>
     <ul class="footer-global">
       <li class="footer-tagline">
-        <h2>Customize Your Portfolio</h2>
-        <p><strong>Template features:</strong></p>
-        <ul class="footer-list">
+        <h2>Let's Connect!</h2>
+        <p>
+          Feel free to reach out with any questions, collaborations, or just to
+          chat about design.
+        </p>
+      </li>
+
+      <li class="footer-highlights">
+        <h2>Awards & Recognition</h2>
+        <ul class="footer-awards-list">
           <li class="footer-item">
-            🖼️ Hero section - Big impactful intro for your brand.
+            <a href="#">Dean’s List – Year or Term</a>
           </li>
           <li class="footer-item">
-            🧱 Work section - Start by choosing a layout version.
+            <a href="#">Your Award – Name of Student Award and Year</a>
           </li>
-          <li class="footer-item">📦 Lightbox Ready - Just add your photos.</li>
           <li class="footer-item">
-            🛠️ Customizable project pages - Tailor to each piece.
+            <a href="#">Honourable Mention – Project or Competition Name</a>
           </li>
-          <li class="footer-item"></li>
+          <li class="footer-item">
+            <a href="#">Other Recognition or Accolade</a>
+          </li>
         </ul>
       </li>
+
+      <li class="footer-contact-social">
+        <h2>Contact & Social</h2>
+        <ul class="footer-socials-list">
+          <li class="footer-item"><a href="#">Insta</a></li>
+          <li class="footer-item"><a href="#">LinkedIn</a></li>
+          <li class="footer-item"><a href="#">Behance</a></li>
+        </ul>
+      </li>
+
+      <li class="footer-full-width">
+        <p><a href="#top">Smooth scroll to the top</a></p>
+        <p class="footer-fineprint">
+          &copy; <span id="copyright-years">2020-</span>. Hand crafted with
+          <span class="heart">❤</span>
+          by James Neufeld.
+        </p>
+        <script>
+          document.getElementById("copyright-years").textContent +=
+            new Date().getFullYear();
+        </script>
+      </li>
     </ul>
+
+    <div id="myID" class="bottomMenu hide">
+      <a href="project-2.html">Next Project</a>
+    </div>
+
+    <script>
+      myID = document.getElementById("myID");
+
+      var myScrollFunc = function () {
+        var y = window.scrollY;
+        if (y >= 800) {
+          myID.className = "bottomMenu show";
+        } else {
+          myID.className = "bottomMenu hide";
+        }
+      };
+
+      window.addEventListener("scroll", myScrollFunc);
+    </script>
   </body>
 </html>
