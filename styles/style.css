@@ -700,7 +700,7 @@ a.nav-link-primary:hover {
 .nav-branding {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   padding: var(--padding-small);
   align-items: center;
 }
@@ -708,8 +708,6 @@ a.nav-link-primary:hover {
 .nav-branding-group {
   display: flex;
   flex-direction: row;
-  border-radius: 0.5rem;
-  border: 0.5rem solid rgb(63, 4, 74);
   padding: var(--padding-tiny);
 }
 .nav-branding-item {
