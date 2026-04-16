@@ -18,7 +18,7 @@
     <link
       rel="icon"
       type="image/png"
-      href="assets/branding-images/favicon.png"
+      href="assets/branding-images/favicon.png.ai"
     />
     <meta property="og:image" content="screenshot.jpg" />
     <link
@@ -99,34 +99,52 @@
         </figure>
       </main>
     </div>
-    <div class="footer-global-wrapper">
-      <h2>Minimal Footer</h2>
-      <div class="footer-full-width">
+    <ul class="footer-global">
+      <li class="footer-tagline">
+        <h2>Reach out to me!</h2>
+        <p>I'm open to any questions, let me know your thoughts!</p>
+      </li>
+      <li class="footer-highlights">
+        <h2>Awards & Recognition</h2>
+        <ul class="footer-awards-list">
+          <li class="footer-item">
+            <a href="#">Dogwood Diploma – 2024</a>
+          </li>
+          <li class="footer-item">
+            <a href="#">WorkSafe B.C – Meghan Vogt 2023</a>
+          </li>
+          <li class="footer-item">
+            <a href="#"> </a>
+          </li>
+          <li class="footer-item">
+            <a href="#"></a>
+          </li>
+        </ul>
+      </li>
+
+      <li class="footer-contact-social">
+        <h2>Contact & Social</h2>
+        <ul class="footer-socials-list">
+          <li class="footer-item">
+            <a href="https://www.instagram.com/">Insta</a>
+          </li>
+          <li class="footer-item"><a href="#">LinkedIn</a></li>
+        </ul>
+      </li>
+
+      <li class="footer-full-width">
+        <p><a href="#top">Smooth scroll to the top</a></p>
         <p class="footer-fineprint">
-          &copy; 2020-2025. Hand crafted with
+          &copy; <span id="copyright-years">2020-</span>. Made with
           <span class="heart">❤</span>
-          by James Neufeld.
+          by Meghan Vogt.
         </p>
-      </div>
-    </div>
-
-    <div id="myID" class="bottomMenu hide">
-      <a href="project-1.html">Previous Project</a>
-    </div>
-
-    <script type="text/javascript">
-      myID = document.getElementById("myID");
-
-      var myScrollFunc = function () {
-        var y = window.scrollY;
-        if (y >= 800) {
-          myID.className = "bottomMenu show";
-        } else {
-          myID.className = "bottomMenu hide";
-        }
-      };
-
-      window.addEventListener("scroll", myScrollFunc);
-    </script>
+        <script>
+          document.getElementById("copyright-years").textContent +=
+            new Date().getFullYear();
+        </script>
+      </li>
+    </ul>
+    <script src="./lightbox2/dist/js/lightbox-plus-jquery.min.js"></script>
   </body>
 </html>
